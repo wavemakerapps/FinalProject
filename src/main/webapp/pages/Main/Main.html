@@ -3,7 +3,9 @@
     <wm-top-nav name="topnav" content="topnav"></wm-top-nav>
     <wm-content name="content">
         <wm-left-panel columnwidth="2" name="leftpanel" content="leftnav"></wm-left-panel>
-        <wm-page-content padding="unset 15px" columnwidth="8" name="mainContent"></wm-page-content>
+        <wm-page-content padding="unset 15px" columnwidth="8" name="mainContent">
+            <wm-table navigation="Basic" dataset="bind:Variables.MyJavaServiceSampleJavaOperation.dataSet" title="" name="sampleJavaOperationTable1"></wm-table>
+        </wm-page-content>
         <wm-right-panel columnwidth="2" name="rightpanel" content="rightnav"></wm-right-panel>
     </wm-content>
     <wm-footer name="footer" content="footer"></wm-footer>

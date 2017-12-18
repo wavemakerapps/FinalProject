@@ -1,4 +1,27 @@
 {
+  "MyJavaServiceSampleJavaOperation" : {
+    "_id" : "wm-MyJavaServiceSampleJavaOperation-wm.ServiceVariable-1513575947418",
+    "name" : "MyJavaServiceSampleJavaOperation",
+    "owner" : "Page",
+    "category" : "wm.ServiceVariable",
+    "dataBinding" : [ ],
+    "type" : "string",
+    "service" : "MyJavaService",
+    "operation" : "sampleJavaOperation",
+    "operationId" : "MyJavaController_sampleJavaOperation",
+    "operationType" : "get",
+    "serviceType" : "JavaService",
+    "dataSet" : [ ],
+    "isList" : false,
+    "maxResults" : 20,
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "inFlightBehavior" : "executeLast",
+    "transformationRequired" : false,
+    "saveInPhonegap" : false,
+    "isDefault" : true,
+    "controller" : "MyJava"
+  },
   "SalesdbChannelsData" : {
     "_id" : "wm-SalesdbChannelsData-wm.LiveVariable-1513573758762",
     "name" : "SalesdbChannelsData",
