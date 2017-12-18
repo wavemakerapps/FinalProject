@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.wavemaker.runtime.security.SecurityService;
 import com.wavemaker.runtime.service.annotations.ExposeToClient;
-import com.wavemaker.runtime.service.annotations.HideFromClient;
+import com.wavemaker.runtime.service.annotations.HideFromClient; 
 
 //import com.finalproject.myjavaservice.model.*;
 
