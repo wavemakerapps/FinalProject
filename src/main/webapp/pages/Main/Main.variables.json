@@ -1,1 +1,62 @@
-{ }
+{
+  "SalesdbChannelsData" : {
+    "_id" : "wm-SalesdbChannelsData-wm.LiveVariable-1513573758762",
+    "name" : "SalesdbChannelsData",
+    "owner" : "Page",
+    "category" : "wm.LiveVariable",
+    "dataBinding" : [ ],
+    "operation" : "read",
+    "dataSet" : [ ],
+    "type" : "Channels",
+    "isList" : true,
+    "saveInPhonegap" : false,
+    "maxResults" : 20,
+    "designMaxResults" : 10,
+    "inFlightBehavior" : "executeLast",
+    "startUpdate" : true,
+    "autoUpdate" : true,
+    "transformationRequired" : false,
+    "liveSource" : "salesdb",
+    "ignoreCase" : true,
+    "matchMode" : "start",
+    "orderBy" : "id asc",
+    "propertiesMap" : {
+      "columns" : [ {
+        "fieldName" : "id",
+        "type" : "integer",
+        "fullyQualifiedType" : "integer",
+        "columnName" : "ID",
+        "isPrimaryKey" : true,
+        "notNull" : true,
+        "length" : 255,
+        "precision" : 10,
+        "generator" : "identity",
+        "isRelated" : false,
+        "scale" : 0
+      }, {
+        "fieldName" : "name",
+        "type" : "string",
+        "fullyQualifiedType" : "string",
+        "columnName" : "NAME",
+        "isPrimaryKey" : false,
+        "notNull" : true,
+        "length" : 40,
+        "precision" : 19,
+        "generator" : "assigned",
+        "isRelated" : false,
+        "scale" : 2
+      } ],
+      "entityName" : "Channels",
+      "fullyQualifiedName" : "com.finalproject.salesdb.Channels",
+      "tableType" : "TABLE",
+      "primaryFields" : [ "id" ]
+    },
+    "isDefault" : true,
+    "bindCount" : 1,
+    "tableName" : "CHANNELS",
+    "tableType" : "TABLE",
+    "properties" : [ ],
+    "relatedTables" : [ ],
+    "package" : "com.finalproject.salesdb.Channels"
+  }
+}
